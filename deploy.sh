@@ -1,0 +1,2 @@
+adb push app/build/intermediates/apk/debug/app-debug.apk /data/local/tmp/AppLock.apk
+adb shell app_process -Djava.class.path=/data/local/tmp/AppLock.apk -Djava.library.path=/data/local/tmp / applock.Main
